@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+header{
+	
+	background-color: #201e20;
+}
+.header_main{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1.05%;
+	padding-bottom: 1.05%;
+}
+.header_section1{
+	font-family: 'Bakbak One', cursive;
+	font-size: 20pt;
+	color: #df8829;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+.header_section2{
+	font-family: 'Bakbak One', cursive;
+	font-size: 18pt;
+	display: flex;
+	justify-content: space-between;
+	color: #df8829;
+	width: 10%;
+	margin-right: 10%;
+}
+.help{
+	margin-right: 50px;
+	vertical-align: middle;
+}
+#time{
+	width: 20%;
+	margin-left: 40%;
+}
+.help_a{
+	position: absolute;
+    margin-top: 1.1%;
+    color: #df8829;
+}
+.help_a:hover{
+	transform: scale(1.5);
+	transition: 0.1s;
+}
+
+/* footer */
+
+footer{
+	background-color: #201e20;
+	display: flex;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+}
+footer a {
+	color: #df8829;
+}
+.prava{
+	font-family: 'Bakbak One', cursive;
+	font-size: 10pt;
+	color: #df8829;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+.soz{
+    font-family: 'Bakbak One', cursive;
+	font-size: 10pt;
+	color: #df8829;
+	margin-left: 30%;
+	margin-top: 1%;
+	text-align: center;
+}
+.sup{
+    font-family: 'Bakbak One', cursive;
+	font-size: 10pt;
+	color: #df8829;
+	margin-left: 35%;
+	margin-top: 1%;
+	text-align: right;
+}
+.prava a:hover{
+	color: #ddc3a5;
+}
+.soz a:hover{
+	color: #ddc3a5;
+}
+.sup a:hover{
+	color: #ddc3a5;
+}
